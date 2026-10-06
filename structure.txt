@@ -1,0 +1,31 @@
+RDX JHATKA ENGINE
+
+main.py
+    ↓
+password check
+    ↓
+Ollama health check
+    ↓
+FastAPI / Uvicorn
+    ↓
+core/app.py
+    ↓
+core/ollama_client.py
+    ↓
+Ollama 127.0.0.1:11434
+    ↓
+qwen2.5-coder:latest
+
+Website is kept separate from this Engine.
+
+Engine API:
+    http://127.0.0.1:8000/
+
+Health:
+    http://127.0.0.1:8000/health
+
+Chat:
+    POST http://127.0.0.1:8000/generate
+
+Image:
+    POST http://127.0.0.1:8000/generate-image

@@ -1,0 +1,18 @@
+{
+    "service_name": "RDX Jhatka Engine",
+    "host": "127.0.0.1",
+    "port": 8000,
+    "ollama_url": "http://127.0.0.1:11434",
+    "ollama_model": "qwen",
+    "request_timeout": 300,
+    "max_prompt_length": 12000,
+    "require_api_key": false,
+    "api_key": "",
+    "allowed_origins": [
+        "*"
+    ],
+    "identity": {
+        "owner_name": "Vikas Nayak",
+        "assistant_name": "RDX Jhatka"
+    }
+}

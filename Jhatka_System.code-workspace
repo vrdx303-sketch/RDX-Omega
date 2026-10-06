@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "Jhatka_System",
+			"path": "."
+		},
+		{
+			"name": "brain",
+			"path": "C:/Users/vrdx3/Downloads/RDX Cobra/brain"
+		},
+		{
+			"name": "ollama_models",
+			"path": "../../ollama_models"
+		}
+	],
+	"settings": {
+		"python-envs.defaultEnvManager": "ms-python.python:system"
+	}
+}
